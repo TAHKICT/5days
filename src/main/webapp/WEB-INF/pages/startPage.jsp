@@ -10,9 +10,9 @@
 <body>
 <div align="center">
   <c:if test="${bookExisting == true}">
-    <p><h2><a href="/books">Список книг</a></h2></p>
+    <p><h2><a href="/books">Book list</a></h2></p>
   </c:if>
-  <p><h2><a href="/book/new">Добавить книгу</a></h2></p>
+  <p><h2><a href="/book/new">Add book</a></h2></p>
 </div>
 </body>
 </html>

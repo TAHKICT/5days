@@ -17,28 +17,28 @@
   <form:form method="post" action="/changeBook" commandName="book">
     <table>
       <tr>
-        <td>Автор</td>
+        <td>Author</td>
         <td><form:input path="author"/></td>
       </tr>
       <tr>
-        <td>Название</td>
+        <td>Title</td>
         <td><form:input path="title"/></td>
       </tr>
       <tr>
-        <td>Жанр</td>
+        <td>Genre</td>
         <td><form:input path="genre"/></td>
       </tr>
       <tr>
-        <td>Цена</td>
+        <td>Price</td>
         <td><form:input path="price"/></td>
       </tr>
       <tr>
-        <td>Описание</td>
+        <td>Description</td>
         <td><form:input path="description"/></td>
       </tr>
       <tr>
         <td colspan="2"><input type="submit"
-                               value="Сохранить" /></td>
+                               value="Save" /></td>
       </tr>
   </form:form>
   </table>

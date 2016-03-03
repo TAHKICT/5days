@@ -9,18 +9,18 @@
 </head>
 <body>
 <div align="left">
-    <a href="/">Главная</a>
+    <a href="/">Main page</a>
 </div>
 <div align="center">
     <h2>Перечень книг</h2>
     <table border="1px">
         <tr>
-            <th>автор</th>
-            <th>название</th>
-            <th>жанр</th>
-            <th>цена</th>
-            <th>дата публикации</th>
-            <th>описание</th>
+            <th>Author</th>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Perice</th>
+            <th>Publish date</th>
+            <th>Description</th>
             <th>&nbsp;</th>
             <th>&nbsp;</th>
         </tr>
@@ -33,8 +33,8 @@
                     <td>${book.price}</td>
                     <td>${book.publishDate}</td>
                     <td>${book.description}</td>
-                    <td><a href="/book/${book.id}">Редактировать</a></td>
-                    <td><a href="/book/remove/${book.id}">Удалить</a></td>
+                    <td><a href="/book/${book.id}">edit</a></td>
+                    <td><a href="/book/remove/${book.id}">remove</a></td>
                 </tr>
             </c:forEach>
         </c:if>
