@@ -9,7 +9,7 @@
 </head>
 <body>
 <div align="left">
-  <a href="/">Главная</a>
+  <a href="/">Main page</a>
 </div>
 
 <div align="center">
