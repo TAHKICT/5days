@@ -9,11 +9,11 @@
 </head>
 <body>
 <div align="left">
-  <a href="/">Главная</a>
+  <a href="/">Main page</a>
 </div>
 
 <div align="center">
-  <h2>Добавить книгу</h2>
+  <h2>Add book</h2>
   <form:form method="post" action="/changeBook" commandName="book">
     <table>
       <tr>
